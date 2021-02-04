@@ -59,8 +59,10 @@ Write a function "check3and7" which accepts a positive number and check if it is
 HINT: Module Operator
 */
 
-
-
+const check3and7 = function(x) {
+    let isCheck = (x % 3 = 0) && (x % 7 = 0) ? true : false
+}
+console.log(check3and7(21))
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 7
